@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/values/fliter_car.xml -->
+<resources>
+    <string-array name="fliter_car">
+        <item >三科星以上</item>
+        <item >五年新車</item>
+        <item >無菸車</item>
+        <item >無障礙</item>
+        <item >寵物友善</item>
+        <item >休旅車</item>
+        <item >可載輪椅</item>
+        <item >車輛接電</item>
+        <item >小型搬家</item>
+        <item >代駕</item>
+    </string-array>
+</resources>

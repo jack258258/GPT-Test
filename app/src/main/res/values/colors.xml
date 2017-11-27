@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="wordcolor">#404040</color>
+    <color name="faded_orange">#ec8c69</color>
+    <color name="very_light_pink_two">#fdf3ef</color>
+    <color name="very_light_gray">#808080</color>
+    <color name="blush">#f7b7a1</color>
+</resources>

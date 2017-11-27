@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_array">
+        <item>個人資料</item>
+        <item>乘車紀錄</item>
+        <item>聯絡客服</item>
+        <item>登出</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">GPT-Test</string>
+    <string name="title_activity_maps">Map</string>
+
+        <!-- Strings related to login -->
+        <string name="prompt_phone">電話</string>
+        <string name="prompt_password">密碼 (optional)</string>
+        <string name="action_sign_in">登入</string>
+        <string name="action_sign_in_short">Sign in</string>
+        <string name="error_invalid_phone">電話格式錯誤</string>
+        <string name="error_invalid_password">This password is too short</string>
+        <string name="error_empty_password">請輸入密碼</string>
+        <string name="error_incorrect_password">This password is incorrect</string>
+        <string name="error_field_required">*必須</string>
+        <string name="error_password_different">密碼不一致</string>
+        <string name="error_format">格式錯誤</string>
+        <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+        <string name="title_activity_send_order">SendOrderActivity</string>
+        <!-- activity_waiting -->
+        <string name="waiting_for_car">正在為您準備車輛...</string>
+        <string name="waiting_btn_cancel">取消叫車</string>
+        <!-- activity_remark -->
+        <string name="remark_textinput_advise">建議或留言...</string>
+        <string name="remark_text_advise">評價</string>
+        <string name="remark_text_rating">評等</string>
+        <string name="remark_btn_lastremark">晚點再評</string>
+        <string name="remark_btn_confirm">確認送出</string>
+        <string name="remark_note">*一小時內都能給於評等</string>
+        <!-- activity_confirm_fare-->
+        <string name="confirm_fare_error">車資有誤</string>
+        <string name="confirm_fare_correct">車資正確</string>
+        <string name="confirm_fare_note">*司機將重新輸入</string>
+        <string name="confirm_fare">車資為</string>
+        <string name="confirm_fare_howmuch">嗎?</string>
+        <string name="confirm_fare_odernumber">車單|</string>
+        <!-- activity_main-->
+        <string name="main_getplace">上車地點</string>
+        <string name="main_optionCar">篩選車種</string>
+        <string name="main_arrivetime">預估抵達時間</string>
+        <string name="main_minute">分</string>
+        <string name="main_comfirmteam">確認車隊 ></string>
+        <string name="main_mainteam">專屬車隊</string>
+        <string name="main_otherteam">其他車隊</string>
+        <string name="main_optteam">選擇車隊別</string>
+        <string name="main_name">車隊名</string>
+        <!-- activity_fill_order-->
+        <string name="fill_order_optteam">選擇車隊</string>
+        <string name="fill_order_getoffplace">下車地點</string>
+        <string name="fill_order_predictfare">預估車資</string>
+        <string name="fill_order_peoplenumber">人數</string>
+        <string name="fill_order_note">備註</string>
+        <string name="fill_order_paymethod">付款方式</string>
+        <string name="fill_order_cash">現金</string>
+        <string name="fill_order_creditcard">信用卡</string>
+        <string name="fill_order_sendorder">開始派車</string>
+        <string name="fill_order_orderdetail">訂單細節</string>
+        <string name="fill_order_predictfare_hint">填寫地點，可預估車資</string>
+        <string name="fill_order_note_hint">上車地點補充、需求等...</string>
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+
+        <string name="record">乘車紀錄</string>
+        <string name="navigation_personal">個人資訊</string>
+        <string name="navigation_contact">聯絡客服</string>
+
+        <string name="personal_modify">修改資料</string>
+
+</resources>

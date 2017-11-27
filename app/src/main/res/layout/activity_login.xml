@@ -1,0 +1,146 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.user.gpt_test.LoginActivity">
+
+    <!-- Login progress -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="312dp"
+        android:layout_height="56dp"
+        android:text="註冊新會員"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/phone_login_form"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/phone_login_form"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/phone_login_form"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rectangle_darkblue"/>
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/phone_login_form"
+        android:layout_width="312dp"
+        android:layout_height="272dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="191dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="105dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/rectangle_login_background"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="24dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="忘記密碼?"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/textInputLayout8"
+            app:layout_constraintRight_toRightOf="@+id/textInputLayout8"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout8" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout7"
+            android:layout_width="199dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="192dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.625">
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="@string/prompt_phone"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="18sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/sign_in_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_rectangle_with_stroke_dash"
+            android:text="@string/action_sign_in"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="0dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="0dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout8"
+            android:layout_width="199dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout7">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="199dp"
+                android:layout_height="match_parent"
+                android:hint="密碼"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
